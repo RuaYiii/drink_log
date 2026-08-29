@@ -1,0 +1,21 @@
+{
+  "bases": [
+    { "id": "absinthe", "name": "苦艾酒 (Absinthe)", "type": "base", "color": "#00ff00" }, 
+    { "id": "whisky", "name": "威士忌 (Whisky)", "type": "base", "color": "#ffff00" },   
+    { "id": "rum", "name": "朗姆酒 (Rum)", "type": "base", "color": "#ff0000" },      
+    { "id": "gin", "name": "金酒 (Gin)", "type": "base", "color": "#00ffff" },      
+    { "id": "vodka", "name": "伏特加 (Vodka)", "type": "base", "color": "#ffffff" },    
+    { "id": "tequila", "name": "龙舌兰 (Tequila)", "type": "base", "color": "#ff8800" },  
+    { "id": "cognac", "name": "干邑 (Cognac)", "type": "base", "color": "#aa5500" },
+    { "id": "vermouth", "name": "味美思/加强型葡萄酒 (Vermouth/Wine)", "type": "base", "color": "#aa0055" }
+  ],
+  "modifiers": [
+    { "id": "sour", "name": "酸 (SOUR - 柠檬等)", "type": "mod", "color": "#ff00ff" },
+    { "id": "sweet", "name": "甜 (SWEET - 糖浆/甜酒)", "type": "mod", "color": "#00ffff" },
+    { "id": "fizz", "name": "气泡/水 (FIZZ - 苏打水等)", "type": "mod", "color": "#ffffff" },
+    { "id": "bitters", "name": "苦精/利口酒 (BITTERS)", "type": "mod", "color": "#ffff00" },
+    { "id": "mint", "name": "薄荷 (MINT)", "type": "mod", "color": "#00ff00" },
+    { "id": "juice", "name": "果汁 (JUICE - 橙汁/菠萝汁)", "type": "mod", "color": "#ff8800" },
+    { "id": "coffee_dairy", "name": "咖啡/奶油 (COFFEE/CREAM)", "type": "mod", "color": "#aa5500" }
+  ]
+}

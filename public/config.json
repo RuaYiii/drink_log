@@ -1,0 +1,4 @@
+{
+  "ingredientsUrl": "data/ingredients.json",
+  "cocktailsUrl": "data/cocktails.json"
+}

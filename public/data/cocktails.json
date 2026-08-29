@@ -1,0 +1,911 @@
+[
+  {
+    "id": "macallan_12",
+    "name": "麦卡伦 12年 (Macallan 12 Sherry Oak)",
+    "requires": ["whisky"],
+    "specs": [
+      { "text": "分类: 单一麦芽苏格兰威士忌 (Speyside Single Malt)" },
+      { "text": "风味: 浓郁的干果、香草与雪莉酒桶的甜美丁香。" },
+      { "text": "[建议] 纯饮 (Neat) 或加一滴水释放香气。" }
+    ],
+    "desc": "雪莉桶威士忌的教科书，斯佩塞产区的绝对标杆。",
+    "tags": ["单一麦芽", "雪莉桶", "纯饮"]
+  },
+  {
+    "id": "talisker_10",
+    "name": "泰斯卡 10年 (Talisker 10)",
+    "requires": ["whisky"],
+    "specs": [
+      { "text": "分类: 单一麦芽苏格兰威士忌 (Island Single Malt)" },
+      { "text": "风味: 强烈的海盐、黑胡椒与篝火般的泥煤烟熏。" },
+      { "text": "[建议] 纯饮，或搭配生蚝饮用。" }
+    ],
+    "desc": "来自斯凯岛的风暴，泥煤爱好者的进阶必修课。",
+    "tags": ["泥煤", "海风", "纯饮"]
+  },
+  {
+    "id": "ballantines_finest",
+    "name": "百龄坛 特醇 (Ballantine's Finest)",
+    "requires": ["whisky"],
+    "specs": [
+      { "text": "分类: 调和型苏格兰威士忌 (Blended Scotch)" },
+      { "text": "风味: 蜂蜜的甜美，夹杂轻柔的香草与苹果香气。" },
+      { "text": "[建议] 加冰块 (On the Rocks) 或制作 Highball。" }
+    ],
+    "desc": "平易近人的日常口粮酒，柔和顺滑的调和之选。",
+    "tags": ["调和型", "口粮", "纯饮"]
+  },
+  {
+    "id": "hendricks_gin",
+    "name": "亨利爵士 (Hendrick's Gin)",
+    "requires": ["gin"],
+    "specs": [
+      { "text": "分类: 现代金酒 (Modern Gin)" },
+      { "text": "风味: 标志性的黄瓜清香与保加利亚玫瑰的优雅。" },
+      { "text": "[建议] 加冰块，配上一片新鲜黄瓜。" }
+    ],
+    "desc": "打破了伦敦干金酒的传统，极具辨识度的花香与草本风味。",
+    "tags": ["花香", "黄瓜", "纯饮"]
+  },
+  {
+    "id": "diplomatico_reserva",
+    "name": "外交官 珍藏 (Diplomático Reserva)",
+    "requires": ["rum"],
+    "specs": [
+      { "text": "分类: 黑朗姆/陈年朗姆 (Dark/Aged Rum)" },
+      { "text": "风味: 焦糖、黑巧克力、香草与烤太妃糖的极致甜美。" },
+      { "text": "[建议] 纯饮，或搭配雪茄。" }
+    ],
+    "desc": "委内瑞拉的骄傲，最适合作为餐后甜酒纯饮的朗姆。",
+    "tags": ["黑朗姆", "甜美", "纯饮"]
+  },
+  {
+    "id": "don_julio_blanco",
+    "name": "唐胡里奥 银霜 (Don Julio Blanco)",
+    "requires": ["tequila"],
+    "specs": [
+      { "text": "分类: 白龙舌兰 (Tequila Blanco)" },
+      { "text": "风味: 清脆的柑橘、黑胡椒与纯粹的龙舌兰植物甜香。" },
+      { "text": "[建议] 纯饮 (Shot) 配柠檬与盐，或用于高级玛格丽特。" }
+    ],
+    "desc": "高地龙舌兰的纯净表达，未经橡木桶陈酿的原始植物气息。",
+    "tags": ["白龙舌兰", "清脆", "纯饮"]
+  },
+  {
+    "id": "death_in_afternoon",
+    "name": "午后之死 (Death in the Afternoon)",
+    "requires": [
+      "absinthe",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 苦艾酒 (Absinthe)",
+        "ratio": "1"
+      },
+      {
+        "text": "120ml 冰镇香槟 (Champagne) (约)",
+        "ratio": "3"
+      },
+      {
+        "text": "[制法] 笛形杯中倒入苦艾酒，缓慢注满香槟至呈现出浑浊的乳白色。"
+      }
+    ],
+    "desc": "海明威的最爱，苦艾酒与香槟（气泡）的猛烈碰撞。",
+    "tags": [
+      "实验性",
+      "浓烈",
+      "极简"
+    ]
+  },
+  {
+    "id": "absinthe_drip",
+    "name": "传统苦艾酒滴水法 (Absinthe Drip)",
+    "requires": [
+      "absinthe",
+      "sweet",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 苦艾酒 (Absinthe)",
+        "ratio": "1"
+      },
+      {
+        "text": "1块 方糖 (Sugar Cube)",
+        "ratio": "少许"
+      },
+      {
+        "text": "90-135ml 冰水 (Ice Water)",
+        "ratio": "2~3"
+      },
+      {
+        "text": "[制法] 苦艾酒倒入玻璃杯，将方糖置于苦艾酒漏勺上，用冰水以极慢的速度滴落穿过方糖，直至酒液完全变乳白。"
+      }
+    ],
+    "desc": "冰水滴过方糖，见证清澈酒液化为乳白色的“悬乳效应 (Louche)”。",
+    "tags": [
+      "传统",
+      "仪式感"
+    ]
+  },
+  {
+    "id": "sazerac_rye",
+    "name": "萨泽拉克 (Sazerac)",
+    "requires": [
+      "whisky",
+      "sweet",
+      "bitters",
+      "absinthe"
+    ],
+    "specs": [
+      {
+        "text": "60ml 黑麦威士忌 (Rye Whiskey)",
+        "ratio": "6"
+      },
+      {
+        "text": "10ml 单糖浆 或 1块方糖",
+        "ratio": "1"
+      },
+      {
+        "text": "3-4滴 裴乔氏苦精 (Peychaud's Bitters)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "少许 苦艾酒 (Absinthe - 洗杯用)",
+        "ratio": "Rinse"
+      },
+      {
+        "text": "[制法] 先用苦艾酒在冰镇过的岩石杯内壁涮洗一圈（Rinse）倒掉。将其他材料加冰搅拌冷却后滤入杯中。喷附柠檬皮油。"
+      }
+    ],
+    "desc": "新奥尔良的骄傲，黑麦威士忌主体，杯壁以苦艾酒洗杯，香气深邃。",
+    "tags": [
+      "经典",
+      "烈酒主导"
+    ]
+  },
+  {
+    "id": "sazerac_cognac",
+    "name": "法式萨泽拉克 (Cognac Sazerac)",
+    "requires": [
+      "cognac",
+      "sweet",
+      "bitters",
+      "absinthe"
+    ],
+    "specs": [
+      {
+        "text": "60ml 干邑白兰地 (Cognac VSOP)",
+        "ratio": "6"
+      },
+      {
+        "text": "10ml 单糖浆 (Simple Syrup)",
+        "ratio": "1"
+      },
+      {
+        "text": "3-4滴 裴乔氏苦精 (Peychaud's Bitters)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "少许 苦艾酒 (Absinthe - 洗杯用)",
+        "ratio": "Rinse"
+      },
+      {
+        "text": "[制法] 同普通萨泽拉克，以干邑代替威士忌，口感更加圆润醇厚。"
+      }
+    ],
+    "desc": "最古老版本的 Sazerac，使用干邑白兰地代替威士忌，更加圆润醇厚。",
+    "tags": [
+      "复古",
+      "醇厚"
+    ]
+  },
+  {
+    "id": "corpse_reviver_2",
+    "name": "亡者复苏二号 (Corpse Reviver No. 2)",
+    "requires": [
+      "gin",
+      "sour",
+      "sweet",
+      "absinthe"
+    ],
+    "specs": [
+      {
+        "text": "22.5ml 伦敦干金酒 (London Dry Gin)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 新鲜柠檬汁 (Lemon Juice)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 君度橙酒 (Cointreau)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 莉兰白利口酒 (Lillet Blanc)",
+        "ratio": "1"
+      },
+      {
+        "text": "2-3滴 苦艾酒 (Absinthe)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "[制法] 所有材料加冰摇匀（Shake），双重过滤入冰镇的马天尼杯中。"
+      }
+    ],
+    "desc": "经典的解酒/回魂配方。金酒、柠檬、白丽莱酒与橙酒的平衡中，点缀一抹苦艾的神秘。",
+    "tags": [
+      "经典",
+      "酸甜平衡"
+    ]
+  },
+  {
+    "id": "monkey_gland",
+    "name": "猴腺 (Monkey Gland)",
+    "requires": [
+      "gin",
+      "juice",
+      "sweet",
+      "absinthe"
+    ],
+    "specs": [
+      {
+        "text": "45ml 伦敦干金酒 (London Dry Gin)",
+        "ratio": "1"
+      },
+      {
+        "text": "45ml 新鲜橙汁 (Orange Juice)",
+        "ratio": "1"
+      },
+      {
+        "text": "1吧勺 红石榴糖浆 (Grenadine)",
+        "ratio": "少许"
+      },
+      {
+        "text": "1吧勺 苦艾酒 (Absinthe)",
+        "ratio": "少许"
+      },
+      {
+        "text": "[制法] 所有材料加冰摇匀，滤入鸡尾酒杯中。"
+      }
+    ],
+    "desc": "诞生于巴黎，果汁（橙汁+红石榴糖浆）的甜美掩盖了烈酒的辛辣，苦艾酒带来迷幻的尾韵。",
+    "tags": [
+      "果味",
+      "迷幻"
+    ]
+  },
+  {
+    "id": "absinthe_frappe",
+    "name": "苦艾酒冰沙 (Absinthe Frappé)",
+    "requires": [
+      "absinthe",
+      "sweet",
+      "mint",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 苦艾酒 (Absinthe)",
+        "ratio": "3"
+      },
+      {
+        "text": "15ml 单糖浆 (Simple Syrup)",
+        "ratio": "1"
+      },
+      {
+        "text": "6片 新鲜薄荷叶 (Mint Leaves)",
+        "ratio": "Muddle"
+      },
+      {
+        "text": "60ml 苏打水 (Soda Water)",
+        "ratio": "4"
+      },
+      {
+        "text": "[制法] 将薄荷与糖浆在杯底轻压，加入苦艾酒和大量碎冰搅拌，最后补齐苏打水，用极多碎冰堆成雪锥。"
+      }
+    ],
+    "desc": "新奥尔良的消暑圣品，用碎冰、薄荷和气泡水彻底释放苦艾酒的茴香香气。",
+    "tags": [
+      "清凉",
+      "薄荷"
+    ]
+  },
+  {
+    "id": "martini",
+    "name": "干马天尼 (Dry Martini)",
+    "requires": [
+      "gin",
+      "vermouth"
+    ],
+    "specs": [
+      {
+        "text": "60ml 伦敦干金酒 (London Dry Gin)",
+        "ratio": "4"
+      },
+      {
+        "text": "15ml 干白味美思 (Dry Vermouth)",
+        "ratio": "1"
+      },
+      {
+        "text": "1-2滴 橙味苦精 (Orange Bitters - 可选)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "[制法] 在混合杯中加冰极速搅拌（Stir）以达到极低的温度而不致于过度稀释。滤入马天尼杯，用橄榄或柠檬皮装饰。"
+      }
+    ],
+    "desc": "鸡尾酒之王。极度冷峻、锐利、干净的烈酒体验。",
+    "tags": [
+      "鸡尾酒之王",
+      "极干"
+    ]
+  },
+  {
+    "id": "manhattan",
+    "name": "曼哈顿 (Manhattan)",
+    "requires": [
+      "whisky",
+      "vermouth",
+      "bitters"
+    ],
+    "specs": [
+      {
+        "text": "60ml 黑麦威士忌 或 波本 (Rye/Bourbon)",
+        "ratio": "2"
+      },
+      {
+        "text": "30ml 甜红味美思 (Sweet Vermouth)",
+        "ratio": "1"
+      },
+      {
+        "text": "2滴 安高天娜苦精 (Angostura Bitters)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "[制法] 搅拌（Stir）后滤入冰镇鸡尾酒杯，酒浸樱桃装饰。"
+      }
+    ],
+    "desc": "鸡尾酒王后。威士忌与甜味美思交织出的醇厚与复杂。",
+    "tags": [
+      "鸡尾酒王后",
+      "醇厚"
+    ]
+  },
+  {
+    "id": "negroni",
+    "name": "尼格罗尼 (Negroni)",
+    "requires": [
+      "gin",
+      "vermouth",
+      "bitters"
+    ],
+    "specs": [
+      {
+        "text": "30ml 伦敦干金酒 (London Dry Gin)",
+        "ratio": "1"
+      },
+      {
+        "text": "30ml 金巴利 (Campari)",
+        "ratio": "1"
+      },
+      {
+        "text": "30ml 甜红味美思 (Sweet Vermouth)",
+        "ratio": "1"
+      },
+      {
+        "text": "[制法] 所有材料在加冰的混合杯中搅拌冷却（Stir），滤入加了老冰的岩石杯中，喷附橙皮油。"
+      }
+    ],
+    "desc": "苦、甜、烈三足鼎立，最完美的成年人睡前酒。",
+    "tags": [
+      "经典",
+      "苦甜平衡"
+    ]
+  },
+  {
+    "id": "boulevardier",
+    "name": "花花公子 (Boulevardier)",
+    "requires": [
+      "whisky",
+      "vermouth",
+      "bitters"
+    ],
+    "specs": [
+      {
+        "text": "45ml 波本或黑麦威士忌 (Bourbon/Rye)",
+        "ratio": "1.5"
+      },
+      {
+        "text": "30ml 金巴利 (Campari)",
+        "ratio": "1"
+      },
+      {
+        "text": "30ml 甜红味美思 (Sweet Vermouth)",
+        "ratio": "1"
+      },
+      {
+        "text": "[制法] 搅拌（Stir），滤入岩石杯。"
+      }
+    ],
+    "desc": "尼格罗尼的威士忌变体，比尼格罗尼更加浓郁醇厚。",
+    "tags": [
+      "经典",
+      "醇厚"
+    ]
+  },
+  {
+    "id": "vesper",
+    "name": "薇丝帕 (Vesper Martini)",
+    "requires": [
+      "gin",
+      "vodka",
+      "vermouth"
+    ],
+    "specs": [
+      {
+        "text": "90ml 金酒 (Gin)",
+        "ratio": "3"
+      },
+      {
+        "text": "30ml 伏特加 (Vodka)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 莉兰白利口酒 (Lillet Blanc)",
+        "ratio": "0.5"
+      },
+      {
+        "text": "[制法] 摇匀（Shake）至极度冰镇，滤入鸡尾酒杯。007詹姆斯·邦德的招牌。"
+      }
+    ],
+    "desc": "\"Shaken, not stirred.\" 一杯猛烈而优雅的致命马天尼。",
+    "tags": [
+      "极强",
+      "詹姆斯邦德"
+    ]
+  },
+  {
+    "id": "daiquiri",
+    "name": "大吉利 (Daiquiri)",
+    "requires": [
+      "rum",
+      "sour",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "60ml 白朗姆酒 (White Rum)",
+        "ratio": "6"
+      },
+      {
+        "text": "30ml 新鲜青柠汁 (Lime Juice)",
+        "ratio": "3"
+      },
+      {
+        "text": "20ml 单糖浆 (Simple Syrup)",
+        "ratio": "2"
+      },
+      {
+        "text": "[制法] 摇匀（Shake），双重过滤入碟形杯。"
+      }
+    ],
+    "desc": "最纯粹的朗姆酒测试仪，展现热带的酸甜平衡。",
+    "tags": [
+      "经典",
+      "清爽"
+    ]
+  },
+  {
+    "id": "whisky_sour",
+    "name": "威士忌酸 (Whisky Sour)",
+    "requires": [
+      "whisky",
+      "sour",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "60ml 波本威士忌 (Bourbon)",
+        "ratio": "6"
+      },
+      {
+        "text": "30ml 新鲜柠檬汁 (Lemon Juice)",
+        "ratio": "3"
+      },
+      {
+        "text": "20ml 单糖浆 (Simple Syrup)",
+        "ratio": "2"
+      },
+      {
+        "text": "1个 蛋清 (可选)",
+        "ratio": "Foam"
+      },
+      {
+        "text": "[制法] 先不加冰干摇（Dry Shake）打发蛋清，再加冰湿摇，过滤。"
+      }
+    ],
+    "desc": "经典酸类鸡尾酒，完美平衡威士忌的辛辣与糖酸。",
+    "tags": [
+      "经典",
+      "平衡"
+    ]
+  },
+  {
+    "id": "gimlet",
+    "name": "吉普雷 (Gimlet)",
+    "requires": [
+      "gin",
+      "sour",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "60ml 金酒 (Gin)",
+        "ratio": "6"
+      },
+      {
+        "text": "30ml 新鲜青柠汁 (Lime Juice)",
+        "ratio": "3"
+      },
+      {
+        "text": "20ml 单糖浆 (Simple Syrup)",
+        "ratio": "2"
+      },
+      {
+        "text": "[制法] 摇匀（Shake），滤入鸡尾酒杯。"
+      }
+    ],
+    "desc": "金酒与青柠的锋利结合，冷峻而直接。",
+    "tags": [
+      "经典",
+      "冷峻"
+    ]
+  },
+  {
+    "id": "margarita",
+    "name": "玛格丽特 (Margarita)",
+    "requires": [
+      "tequila",
+      "sour",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "45ml 龙舌兰 (Tequila Blanco)",
+        "ratio": "2"
+      },
+      {
+        "text": "22.5ml 君度橙酒 (Cointreau - 充当甜味)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 新鲜青柠汁 (Lime Juice)",
+        "ratio": "1"
+      },
+      {
+        "text": "[制法] 杯口抹上海盐（盐边）。所有材料摇匀后滤入杯中。"
+      }
+    ],
+    "desc": "龙舌兰与柑橘的灵魂共舞，配合盐边提升风味层次。",
+    "tags": [
+      "经典",
+      "热情"
+    ]
+  },
+  {
+    "id": "sidecar",
+    "name": "边车 (Sidecar)",
+    "requires": [
+      "cognac",
+      "sour",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "45ml 干邑白兰地 (Cognac)",
+        "ratio": "2"
+      },
+      {
+        "text": "22.5ml 君度橙酒 (Cointreau)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 新鲜柠檬汁 (Lemon Juice)",
+        "ratio": "1"
+      },
+      {
+        "text": "[制法] 杯口可做糖边。所有材料加冰摇匀，滤入鸡尾酒杯。"
+      }
+    ],
+    "desc": "干邑酸酒的最强代表，复杂而深沉的橙味果香。",
+    "tags": [
+      "经典",
+      "醇厚"
+    ]
+  },
+  {
+    "id": "mojito",
+    "name": "莫吉托 (Mojito)",
+    "requires": [
+      "rum",
+      "sour",
+      "sweet",
+      "fizz",
+      "mint"
+    ],
+    "specs": [
+      {
+        "text": "60ml 白朗姆酒 (White Rum)",
+        "ratio": "6"
+      },
+      {
+        "text": "30ml 青柠汁 (Lime Juice)",
+        "ratio": "3"
+      },
+      {
+        "text": "20ml 单糖浆 或 两吧勺白糖",
+        "ratio": "2"
+      },
+      {
+        "text": "8-10片 薄荷叶 (Mint)",
+        "ratio": "Muddle"
+      },
+      {
+        "text": "苏打水 补满 (Soda Water)",
+        "ratio": "Top"
+      },
+      {
+        "text": "[制法] 在长饮杯中轻压薄荷与糖、酸，加入朗姆酒与碎冰搅拌，补齐苏打水。"
+      }
+    ],
+    "desc": "夏日经典，薄荷与气泡的极致清凉。",
+    "tags": [
+      "长饮",
+      "气泡"
+    ]
+  },
+  {
+    "id": "gin_tonic",
+    "name": "金汤力 (Gin & Tonic)",
+    "requires": [
+      "gin",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 金酒 (Gin)",
+        "ratio": "1"
+      },
+      {
+        "text": "90-130ml 汤力水 (Tonic Water)",
+        "ratio": "2~3"
+      },
+      {
+        "text": "[制法] 长饮杯中加满冰块，倒入金酒，缓慢补齐汤力水，轻微提拉搅拌。"
+      }
+    ],
+    "desc": "最著名的混合饮料之一，草本香气与汤力水微苦的绝佳平衡。",
+    "tags": [
+      "长饮",
+      "极简"
+    ]
+  },
+  {
+    "id": "french_75",
+    "name": "法式75 (French 75)",
+    "requires": [
+      "gin",
+      "sour",
+      "sweet",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "30ml 金酒 (Gin)",
+        "ratio": "2"
+      },
+      {
+        "text": "15ml 新鲜柠檬汁 (Lemon Juice)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 单糖浆 (Simple Syrup)",
+        "ratio": "1"
+      },
+      {
+        "text": "60-90ml 香槟 (Champagne)",
+        "ratio": "Top"
+      },
+      {
+        "text": "[制法] 将除香槟外的材料摇匀，滤入香槟杯，最后注满香槟。"
+      }
+    ],
+    "desc": "像75毫米野战炮一样给你温柔的一击。气泡与金酒的极度升华。",
+    "tags": [
+      "香槟",
+      "优雅"
+    ]
+  },
+  {
+    "id": "paloma",
+    "name": "帕洛玛 (Paloma)",
+    "requires": [
+      "tequila",
+      "sour",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 龙舌兰 (Tequila Blanco)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 青柠汁 (Lime Juice - 可选)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "120ml 西柚苏打水 (Grapefruit Soda)",
+        "ratio": "3"
+      },
+      {
+        "text": "[制法] 杯口做盐边，加满冰块后直接倒入材料搅拌。"
+      }
+    ],
+    "desc": "墨西哥最受欢迎的鸡尾酒，比玛格丽特更加平易近人和解渴。",
+    "tags": [
+      "长饮",
+      "解渴"
+    ]
+  },
+  {
+    "id": "moscow_mule",
+    "name": "莫斯科骡子 (Moscow Mule)",
+    "requires": [
+      "vodka",
+      "sour",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "45ml 伏特加 (Vodka)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 青柠汁 (Lime Juice)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "120ml 干姜啤酒 (Ginger Beer)",
+        "ratio": "3"
+      },
+      {
+        "text": "[制法] 经典的铜杯中加满冰块，倒入材料轻微搅拌。"
+      }
+    ],
+    "desc": "铜杯里的干姜风暴，辛辣与清凉的绝佳体验。",
+    "tags": [
+      "长饮",
+      "辛辣"
+    ]
+  },
+  {
+    "id": "espresso_martini",
+    "name": "意式浓缩马天尼 (Espresso Martini)",
+    "requires": [
+      "vodka",
+      "coffee_dairy",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "60ml 伏特加 (Vodka)",
+        "ratio": "2"
+      },
+      {
+        "text": "30ml 咖啡利口酒 (Coffee Liqueur - Kahlua)",
+        "ratio": "1"
+      },
+      {
+        "text": "30ml 浓缩咖啡 (Fresh Espresso)",
+        "ratio": "1"
+      },
+      {
+        "text": "少许 单糖浆 (依口味)",
+        "ratio": "Dash"
+      },
+      {
+        "text": "[制法] 剧烈摇匀（Shake）以打出浓厚的咖啡泡沫，滤入马天尼杯，顶部放三颗咖啡豆。"
+      }
+    ],
+    "desc": "\"Wake me up, and then fuck me up.\" 完美的咖啡与酒精混合。",
+    "tags": [
+      "咖啡",
+      "提神"
+    ]
+  },
+  {
+    "id": "white_russian",
+    "name": "白俄罗斯 (White Russian)",
+    "requires": [
+      "vodka",
+      "coffee_dairy",
+      "sweet"
+    ],
+    "specs": [
+      {
+        "text": "60ml 伏特加 (Vodka)",
+        "ratio": "2"
+      },
+      {
+        "text": "30ml 咖啡利口酒 (Coffee Liqueur)",
+        "ratio": "1"
+      },
+      {
+        "text": "30ml 鲜奶油/全脂奶 (Heavy Cream/Milk)",
+        "ratio": "1"
+      },
+      {
+        "text": "[制法] 岩石杯中加冰块，倒入伏特加和咖啡酒，最后将奶油轻柔地漂浮（Float）在顶层。"
+      }
+    ],
+    "desc": "《谋杀绿脚趾》主角的最爱。柔滑奶香与咖啡酒的结合。",
+    "tags": [
+      "奶制",
+      "甜美"
+    ]
+  },
+  {
+    "id": "long_island_iced_tea",
+    "name": "长岛冰茶 (Long Island Iced Tea)",
+    "requires": [
+      "vodka",
+      "rum",
+      "gin",
+      "tequila",
+      "sour",
+      "sweet",
+      "fizz"
+    ],
+    "specs": [
+      {
+        "text": "15ml 伏特加 (Vodka)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 白朗姆酒 (White Rum)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 金酒 (Gin)",
+        "ratio": "1"
+      },
+      {
+        "text": "15ml 龙舌兰 (Tequila)",
+        "ratio": "1"
+      },
+      {
+        "text": "22.5ml 君度橙酒 (Cointreau - 甜)",
+        "ratio": "1.5"
+      },
+      {
+        "text": "22.5ml 柠檬汁 (Lemon Juice - 酸)",
+        "ratio": "1.5"
+      },
+      {
+        "text": "可乐 补满 (Cola - 气泡)",
+        "ratio": "Top"
+      },
+      {
+        "text": "[制法] 除可乐外全部摇匀，倒入装满冰块的超大长饮杯，最后补满可乐。"
+      }
+    ],
+    "desc": "外表如同冰茶般无害，内里却是由四大基酒构成的烈酒深渊。",
+    "tags": [
+      "极强",
+      "断片警告"
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
+
+:root {
+  /* 
+   * 故障艺术 & 纯正 CMYK 配色方案 (Glitch Art & Pure CMYK)
+   */
+  --bg-color: #f4f4f2; /* 纸张白 */
+  --text-color: #111111; /* 印刷黑 */
+  
+  /* 纯正 CMYK 强调色 */
+  --accent-cyan: #00ffff;
+  --accent-magenta: #ff00ff;
+  --accent-yellow: #ffff00;
+  
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  
+  /* Layout constraints */
+  --border-width: 3px; /* 增加边框厚度以增强粗野主义感 */
+}
+
+/* 强制覆盖所有滚动条 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-color) var(--bg-color);
+}
+
+*::-webkit-scrollbar {
+  width: 16px; /* 更粗的滚动条 */
+  height: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-left: var(--border-width) dashed var(--text-color); /* 虚线轨道，增加设计感 */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  border: 3px solid var(--bg-color);
+  border-radius: 0; /* 绝对直角 */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-magenta);
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--bg-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-mono);
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography Utilities */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+/* Structuralist Panel Utilities */
+.panel {
+  border: var(--border-width) solid var(--text-color);
+  background: rgba(244, 244, 242, 0.95); /* 更不透明，避免文字被背景干扰 */
+  padding: 1.5rem;
+  /* 粗野主义阴影，绝对锐利 */
+  box-shadow: 6px 6px 0px rgba(0,255,255,1), 
+              -6px -6px 0px rgba(255,0,255,1); 
+  position: relative;
+}
+
+.brutalist-button {
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: var(--border-width) solid var(--text-color);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.1s steps(3, end); 
+  position: relative;
+  box-shadow: 4px 4px 0px var(--text-color);
+}
+
+.brutalist-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--accent-magenta), 
+              -2px -2px 0 var(--accent-cyan); 
+}
+
+.brutalist-button:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0 transparent;
+}
+
+/* 文本高亮工具类，解决白底上青色文字看不清的问题 */
+.highlight-cyan {
+  background: var(--accent-cyan);
+  color: var(--text-color);
+  padding: 0 0.2rem;
+}
+
+.highlight-magenta {
+  background: var(--accent-magenta);
+  color: var(--bg-color);
+  padding: 0 0.2rem;
+}
+
+.highlight-yellow {
+  background: var(--accent-yellow);
+  color: var(--text-color);
+  padding: 0 0.2rem;
+}
