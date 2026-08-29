@@ -1,5 +1,10 @@
 # Drink_log 🥃 // [SHAKER MODE]
 
+[![Deploy Drink Log to GitHub Pages](https://github.com/RuaYiii/drink_log/actions/workflows/deploy.yml/badge.svg)](https://github.com/RuaYiii/drink_log/actions/workflows/deploy.yml)
+
+🌐 **在线体验：[Drink Log](https://ruayiii.github.io/drink_log/)**
+
+
 > 一场大醉后，通过 Vibe coding 捣鼓出的产物。感谢各位酒友，欢迎把玩。
 
 **Drink_log** 是一个完全基于我个人审美构建的开源调酒配方引擎。
@@ -10,13 +15,15 @@
 
 ---
 
+
+
 ## 🚀 架构与部署 (Architecture & Deployment)
 
 本项目采用纯粹的 **CSR (Client-Side Rendering)** 架构，基于 React + Vite 构建，零后端依赖。通过 Zustand 进行状态管理，并在数据层引入了 **Runtime Fetching** 机制以实现深度解耦。
 
 ### 开发环境 (Local Development)
 ```bash
-git clone https://github.com/your-username/drink_log.git
+git clone https://github.com/RuaYiii/drink_log.git
 cd drink_log
 npm install
 npm run dev
@@ -29,7 +36,13 @@ npm run build
 ```
 构建后的 `dist` 目录仅包含 HTML/CSS/JS 与静态 JSON 文件，直接挂载即可，无需运行时的 Node.js 环境。
 
+### GitHub Pages
 
+本项目已通过 GitHub Actions 自动部署至：
+
+- [https://ruayiii.github.io/drink_log/](https://ruayiii.github.io/drink_log/)
+
+每次向 `main` 分支推送提交时，GitHub Actions 会自动安装依赖、构建项目并发布最新版本。
 
 ---
 
